@@ -1,15 +1,79 @@
-body{
-    background: #f5c6ce;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    background-image: url(imagens/gif.gif);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column; /* Organiza as divs em coluna */
+    align-items: center; /* Centraliza as divs horizontalmente */
+    height: 100vh; /* Usa toda a altura da tela */
+    overflow-x: hidden; /* Desativa a rolagem horizontal */
+}
+
+.principal {
+    width: 100%; /* Garantir que a largura ocupe 100% da tela */
+    box-sizing: border-box; /* Inclui o padding na largura total */
+    padding: 20px;
+}
+
+.local {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+    align-items: center; /* Centraliza a imagem verticalmente */
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%; /* A largura da div ocupa toda a tela */
+    height: 300px; /* Definir altura fixa para centralizar a imagem verticalmente */
+}
+
+p {
+    text-align: center;
+    margin-top: 20px; /* Espaço entre a imagem e o texto */
+    font-size: 18px;
+    font-family: cursive;
+    color: black;
+    border: black 10px;
+}
+
+.texto {
     background-image: url(imagens/Convite\ de\ aniversário\ rosa\ delicado\ \ \(1\).png);
     background-size: cover;
-    background-repeat: no-repeat; /* Evita repetição */
-    background-position: center 50px;
+    background-position: center;
+    border-radius: 10px;
+    padding: 4px 20px;
 }
-img{
-    position: absolute;
-    top: 50%; /* Move para o meio vertical */
-    left: 50%; /* Move para o meio horizontal */
-    transform: translate(-50%, -50%); /* Centraliza exatamente no centro */
-    max-width: 100%; /* Responsivo */
+
+.informes{
+    background-image: url(imagens/Convite\ de\ aniversário\ rosa\ delicado\ \ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 4px 5px;
+    margin-bottom: 30px;
+}
+
+img.gi {
+    background-image: url(imagens/Convite\ de\ aniversário\ rosa\ delicado\ \ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+    margin-top: 0;
+    max-width: 100%; /* Responsivo para não ultrapassar a tela */
     height: auto;
+    display: block; /* Garante que a imagem se comporte como um bloco */
 }
+
+img.loc {
+    border-radius: 15px;
+    max-width: 100%; /* Responsivo para não ultrapassar a tela */
+    height: auto;
+    display: block; /* Garantindo que o display da imagem é bloco */
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+
