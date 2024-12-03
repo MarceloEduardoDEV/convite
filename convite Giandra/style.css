@@ -22,6 +22,7 @@ body {
     justify-content: center; /* Centraliza a imagem horizontalmente */
     align-items: center; /* Centraliza a imagem verticalmente */
     padding-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
     width: 100%; /* A largura da div ocupa toda a tela */
     height: 300px; /* Definir altura fixa para centralizar a imagem verticalmente */
@@ -37,6 +38,15 @@ p {
 }
 
 .texto {
+    background-image: url(imagens/Convite\ de\ aniversário\ rosa\ delicado\ \ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 4px 20px;
+    margin-bottom: 30px;
+}
+
+.fim {
     background-image: url(imagens/Convite\ de\ aniversário\ rosa\ delicado\ \ \(1\).png);
     background-size: cover;
     background-position: center;
@@ -60,7 +70,7 @@ img.gi {
     padding-top: 60px;
     padding-bottom: 40px;
     border-radius: 15px;
-    margin-top: 0;
+    margin-bottom: 0px;
     max-width: 100%; /* Responsivo para não ultrapassar a tela */
     height: auto;
     display: block; /* Garante que a imagem se comporte como um bloco */
